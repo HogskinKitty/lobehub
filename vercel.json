@@ -59,6 +59,10 @@
     {
       "source": "/_dangerous_local_dev_proxy/:path*",
       "destination": "/_dangerous_local_dev_proxy.html"
+    },
+    {
+      "source": "/api/auth/sign-up/:path*",
+      "destination": "/404"
     }
   ]
 }
